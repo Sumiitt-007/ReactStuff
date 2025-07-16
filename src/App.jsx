@@ -1,19 +1,17 @@
 import Add from "./Components/Add";
 import { useState } from "react";
-import Example from "./Components/Example";
-import ComponentTwo from "./Components/ComponentTwo";
-import Counter from "./Components/Counter";
-import TodoList from "./Components/TodoList";
-
+import Profile from "./Components/Profile";
+import CopyInput from "./Components/CopyInput";
 
 
 
 
 const App = () => {  
   return <section>
-    <TodoList/>
+    <CopyInput/>
   </section>
 }
+
 
 
 
